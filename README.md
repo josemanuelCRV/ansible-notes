@@ -636,6 +636,14 @@ Si ejecutamos el playbook nuevamente, al no necesitar volver a instalar Apache2,
 
 [Vagrant]: <https://www.vagrantup.com/>
 
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes/blob/master/README.md#¿Para-qué-usamos--_ANSIBLE_?>
-
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#para-qué-usamos-ansible>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#instalación-de-ansible>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#archivos-de-configuración>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#ansible---inventory>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#definiendo-nuevos-archivos-de-configuración>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#comandos-básicos-ad-hoc>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#comandos-ad-hoc-para-controlar-módulos>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#redactando-playbooks>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#conectarse-al-host-remoto-con-otro-usuario>
+[qw1]: <https://github.com/josemanuelCRV/ansible-notes#handlers>
 
