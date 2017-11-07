@@ -3,19 +3,18 @@
 ***
 # Introducción a ANSIBLE
 
-- *[¿Para qué usamos _ANSIBLE_?][qw1]*
-- *[¿Cómo funciona ANSIBLE?][qw1]*
-- *[Instalación de ANSIBLE][qw1]*
-- *[Archivos de configuración][qw1]*
-- *[ANSIBLE - Inventory][qw1]*
-- *[Definiendo nuevos archivos de configuración][qw1]*
-- *[Comandos básicos ad-hoc][qw1]*
-- *[Comandos ad-hoc para controlar módulos][qw1]*
-- *[Redactando Playbooks][qw1]*
-- *[Conectarse al host remoto con otro usuario][qw1]*
-- *[Handlers][qw1]*
+- *[¿Para qué usamos _ANSIBLE_?][s1]*
+- *[Instalación de ANSIBLE][s2]*
+- *[Archivos de configuración][s3]*
+- *[ANSIBLE - Inventory][s4]*
+- *[Definiendo nuevos archivos de configuración][s5]*
+- *[Comandos básicos ad-hoc][s6]*
+- *[Comandos ad-hoc para controlar módulos][s7]*
+- *[Redactando Playbooks][s8]*
+- *[Conectarse al host remoto con otro usuario][s9]*
+- *[Handlers][s10]*
 
-[Fuentes][qw1]
+[Fuentes][s11]
 
 
 
@@ -628,22 +627,36 @@ Si la tarea finaliza correctamente, la clave definida como  _`notify:`_ se lanza
 
 Si ejecutamos el playbook nuevamente, al no necesitar volver a instalar Apache2, el `Handler` no se va a ejecutar. Ya que sólo se ejecuta en caso que la tarea finalizase satisfactoriamente. Por el contrario, si lo hubiésemos definido como otra tarea, Ansible lo hubiese ejecutado, al no estar vinculada a ninguna condición. 
 
- ---
- ![](http://blog.itlinux.cl/images/ansible2014_logo_black_tagline.png)
+---
+
+### Fuentes
+---
+ 
+https://www.ansible.com/get-started
+http://docs.ansible.com/ansible/latest/intro.html
+https://www.ansible.com/webinars-training
+https://galaxy.ansible.com/
+https://www.youtube.com/playlist?list=PLTd5ehIj0goP2RSCvTiz3-Cko8U6SQV1P
+https://www.youtube.com/watch?v=XJpN8qpxWbA
+ 
+ 
+ 
+![](http://blog.itlinux.cl/images/ansible2014_logo_black_tagline.png)
 
 
 [img-Ansible]: https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.png "Icono ANSIBLE"
 
 [Vagrant]: <https://www.vagrantup.com/>
 
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#para-qué-usamos-ansible>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#instalación-de-ansible>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#archivos-de-configuración>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#ansible---inventory>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#definiendo-nuevos-archivos-de-configuración>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#comandos-básicos-ad-hoc>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#comandos-ad-hoc-para-controlar-módulos>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#redactando-playbooks>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#conectarse-al-host-remoto-con-otro-usuario>
-[qw1]: <https://github.com/josemanuelCRV/ansible-notes#handlers>
+[s1]: <https://github.com/josemanuelCRV/ansible-notes#para-qué-usamos-ansible>
+[s2]: <https://github.com/josemanuelCRV/ansible-notes#instalación-de-ansible>
+[s3]: <https://github.com/josemanuelCRV/ansible-notes#archivos-de-configuración>
+[s4]: <https://github.com/josemanuelCRV/ansible-notes#ansible---inventory>
+[s5]: <https://github.com/josemanuelCRV/ansible-notes#definiendo-nuevos-archivos-de-configuración>
+[s6]: <https://github.com/josemanuelCRV/ansible-notes#comandos-básicos-ad-hoc>
+[s7]: <https://github.com/josemanuelCRV/ansible-notes#comandos-ad-hoc-para-controlar-módulos>
+[s8]: <https://github.com/josemanuelCRV/ansible-notes#redactando-playbooks>
+[s9]: <https://github.com/josemanuelCRV/ansible-notes#conectarse-al-host-remoto-con-otro-usuario>
+[s10]: <https://github.com/josemanuelCRV/ansible-notes#handlers>
+[s11]: <https://github.com/josemanuelCRV/ansible-notes#fuentes>
 
