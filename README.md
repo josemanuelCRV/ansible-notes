@@ -16,10 +16,6 @@
 
 [Fuentes][s11]
 
-
-
-
-**Tutorial:** https://www.youtube.com/watch?v=slNIwBPeQvE&list=PLTd5ehIj0goP2RSCvTiz3-Cko8U6SQV1P
 ***
 ---
 
@@ -28,7 +24,7 @@
 ---
 Permite aprovisionar los servidores con todos los servicios y recursos de software que nos vayan a ser necesarios para que la máquina sea útil.
 
-> Ejemplo: 
+> Casos de uso: 
 - Alquilamos un servidor en DigitalOcean y sólo nos viene con una instalación de Ubuntu 16.04.
 - Necesitamos instalar manualmente todo lo que vaya a necesitar (_NGINX, redis, Elasticsearch,_...)
 
@@ -632,12 +628,12 @@ Si ejecutamos el playbook nuevamente, al no necesitar volver a instalar Apache2,
 ### Fuentes
 ---
  
-https://www.ansible.com/get-started
-http://docs.ansible.com/ansible/latest/intro.html
-https://www.ansible.com/webinars-training
-https://galaxy.ansible.com/
-https://www.youtube.com/playlist?list=PLTd5ehIj0goP2RSCvTiz3-Cko8U6SQV1P
-https://www.youtube.com/watch?v=XJpN8qpxWbA
+- https://www.ansible.com/get-started
+- http://docs.ansible.com/ansible/latest/intro.html
+- https://www.ansible.com/webinars-training
+- https://galaxy.ansible.com/
+- https://www.youtube.com/playlist?list=PLTd5ehIj0goP2RSCvTiz3-Cko8U6SQV1P
+- https://www.youtube.com/watch?v=XJpN8qpxWbA
  
  
  
